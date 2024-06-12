@@ -52,7 +52,7 @@ This is the frontend of the Todo application built using React. It provides a us
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:raushankcse/techaxlabs-frontend.git
    cd frontend
 
 2. **Install dependencies:**
