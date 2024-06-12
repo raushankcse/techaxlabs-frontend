@@ -1,0 +1,125 @@
+.todo-container{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-button{
+  padding: 10px;
+  background-color: black;
+  border-radius: 30px;
+  width: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-task{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 20px 0;
+}
+
+.add-task input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.add-button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-section{
+  margin: 20px 0;
+}
+
+.filter-section button{
+  margin: 0 5px;
+  padding: 10px;
+  width: 100px;
+  background-color:rgb(0, 0, 0);
+  color: white;
+  border-radius: 30px;
+  font-size: .8rem;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-section button{
+  margin: 0 5px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  font-size: .8rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list{
+  list-style: none;
+  padding: 0;
+
+}
+
+.task-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.task-item input[type="checkbox"]{
+  margin-right: 10px;
+}
+
+.task-item .completed{
+  text-decoration: line-through;
+}
+
+
+
+.edit-button,
+.delete-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li{
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li.active{
+  font-weight: bold;
+}
