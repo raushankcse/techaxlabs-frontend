@@ -20,8 +20,7 @@ This is the frontend of the Todo application built using React. It provides a us
 - React Toastify
 
 ## Project Structure
-```bash
-.
+
 ├── public
 │ └── index.html
 ├── src
