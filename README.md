@@ -20,7 +20,7 @@ This is the frontend of the Todo application built using React. It provides a us
 - React Toastify
 
 ## Project Structure
-
+```bash
 .
 ├── public
 │ └── index.html
@@ -56,14 +56,17 @@ This is the frontend of the Todo application built using React. It provides a us
    cd frontend
 
 2. Install dependencies:
+  ```bash
   npm install
 
 3. Configure environment variables:
   Create a .env file in the frontend directory and add the following variable:
 
+  ```bash
   REACT_APP_API_URL=http://localhost:5000
 
 4. Start the React app:
+  ```bash
   npm start
 
 
