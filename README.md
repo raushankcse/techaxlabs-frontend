@@ -82,5 +82,5 @@ Usage
 
 
 Contact
-Author: Raushan Kumar
-Email: raushankcse@gmail.com
+- Author: Raushan Kumar
+- Email: raushankcse@gmail.com
