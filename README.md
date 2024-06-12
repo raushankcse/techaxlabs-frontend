@@ -20,23 +20,24 @@ This is the frontend of the Todo application built using React. It provides a us
 - React Toastify
 
 ## Project Structure
-
-├── public
-│ └── index.html
-├── src
-│ ├── components
-│ │ ├── AuthRoute.js
-│ │ ├── Home.js
-│ │ ├── Login.js
-│ │ ├── Register.js
-│ │ ├── PrivateRoute.js
-│ │ └── Todo.js
-│ ├── App.js
-│ ├── index.js
-│ └── App.css
-├── .env
-├── package.json
-└── README.md
+  ```
+  ├── public
+  │ └── index.html
+  ├── src
+  │ ├── components
+  │ │ ├── AuthRoute.js
+  │ │ ├── Home.js
+  │ │ ├── Login.js
+  │ │ ├── Register.js
+  │ │ ├── PrivateRoute.js
+  │ │ └── Todo.js
+  │ ├── App.js
+  │ ├── index.js
+  │ └── App.css
+  ├── .env
+  ├── package.json
+  └── README.md
+  ```
 
 
 
