@@ -11,7 +11,8 @@ const Home = () => {
   };
   return (
     <div className="home-container">
-      <h1>Todo App</h1>
+      <h1>Multiple user Todo App</h1>
+     
         <p>Your journey starts here.</p>
         <button className="btn btn-primary" onClick={handleGetStarted}>
           Get Started
