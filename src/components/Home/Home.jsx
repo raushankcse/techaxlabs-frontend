@@ -9,7 +9,7 @@ const Home = () => {
     navigate("/login");
   };
   return (
-    <div className="home-container">
+    <div className="home-container d-flex justify-content-center align-items-center text-center">
       <div className="home-contents">
         <h1 className="text-blue-600">Multi-User Tasks Manager</h1>
         <p>Manage and save your daily tasks</p>
